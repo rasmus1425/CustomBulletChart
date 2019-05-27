@@ -1,0 +1,21 @@
+{
+  "name": "visual",
+  "scripts": {
+    "postinstall": "pbiviz update 2.2.0",
+    "pbiviz": "pbiviz",
+    "start": "pbiviz start",
+    "lint": "tslint -r \"node_modules/tslint-microsoft-contrib\"  \"+(src|test)/**/*.ts\"",
+    "test": "pbiviz package --resources --no-minify --no-pbiviz"
+},
+  "dependencies": {
+    "d3": "^3.5.5",
+    "jquery": "^3.1.1",
+    "powerbi-visuals-utils-chartutils": "^1.5.1",
+    "powerbi-visuals-utils-dataviewutils": "^1.4.1",
+    "powerbi-visuals-utils-formattingutils": "^3.0.1",
+    "powerbi-visuals-utils-interactivityutils": "^1.0.0",
+    "powerbi-visuals-utils-svgutils": "^1.1.0",
+    "powerbi-visuals-utils-tooltiputils": "^1.0.0",
+    "powerbi-visuals-utils-typeutils": "^1.1.0"
+  }
+}
